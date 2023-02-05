@@ -1,2 +1,7 @@
 # Statuser
-Statuser is a tool to check the status of websites. All you have to do is list the websites or URLs in a comma-separated format. Statuser will check if the website is available and return the status of the site along with the same information exported to a CSV file.
+
+This is a Python script that allows you to check the status of websites and save the results to a CSV file. 
+
+You are prompted to enter a list of URLs separated by commas, and the script sends GET requests to each URL, retrieves the HTTP status code, and determines the status of the website. The results, including the URL, HTTP status code, status, and time, are saved to a CSV file named "Statuser_output.csv". 
+
+If there is an exception while sending the GET request, a message indicating that the URL could not be connected to is displayed
